@@ -47,7 +47,7 @@ async function zlozOferte() {
     const data = new URLSearchParams();
     data.append('startingBid', '100');
     data.append('pointsAmount', pointsToBid.toString());
-    data.append('hoursAmount', '1');
+    data.append('hoursAmount', '100');
 
     try {
         const response = await fetch(url, {
